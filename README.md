@@ -65,15 +65,9 @@
 <img src="https://img.shields.io/badge/Groq-FD3433?style=for-the-badge&logo=groq&logoColor=white" alt="Groq"/>
 <img src="https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery"/>
 
-</div>
+<br/><br/>
 
-<!-- ════════════════════════  STATS  ════════════════════════ -->
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=eduardhorkusha-code&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=percentile&hide=issues,prs&bg_color=222631&title_color=FD3433&icon_color=FD3433&text_color=ffffff" alt="github stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardhorkusha-code&layout=compact&langs_count=6&hide_border=true&bg_color=222631&title_color=FD3433&text_color=ffffff" alt="top languages"/>
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardhorkusha-code&layout=compact&langs_count=6&hide_border=true&card_width=480&bg_color=222631&title_color=FD3433&text_color=ffffff" alt="most used languages"/>
 
 </div>
 
