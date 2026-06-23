@@ -32,16 +32,19 @@
   <!-- left text block -->
   <g transform="translate(72 0)">
     <!-- tag -->
-    <rect x="0" y="78" width="252" height="30" rx="15" fill="#FD3433" fill-opacity="0.14"/>
-    <text x="18" y="98" font-size="14" font-weight="600" letter-spacing="3" fill="#FD3433">AI · AGENTS · PRODUCT</text>
+    <rect x="0" y="66" width="290" height="30" rx="15" fill="#FD3433" fill-opacity="0.14"/>
+    <text x="18" y="86" font-size="14" font-weight="600" letter-spacing="3" fill="#FD3433">GROWTH OPS · SOLO BUILDER</text>
 
     <!-- name -->
-    <text x="-2" y="168" font-size="58" font-weight="700" letter-spacing="-1.5" fill="#FFFFFF">Eduard Horkusha</text>
+    <text x="-2" y="152" font-size="56" font-weight="700" letter-spacing="-1.5" fill="#FFFFFF">Eduard Horkusha</text>
 
     <!-- role -->
-    <text x="0" y="208" font-size="24" font-weight="500" fill="#FFFFFF" fill-opacity="0.72">AI-native Product Engineer</text>
+    <text x="0" y="192" font-size="23" font-weight="500" fill="#FFFFFF" fill-opacity="0.78">Senior Growth Operations Manager</text>
+
+    <!-- secondary role -->
+    <text x="0" y="222" font-size="17" font-weight="500" fill="#FD3433" fill-opacity="0.92">Shipping products solo with Claude Code</text>
 
     <!-- accent underline -->
-    <rect x="0" y="230" width="520" height="3" rx="1.5" fill="url(#redline)"/>
+    <rect x="0" y="242" width="560" height="3" rx="1.5" fill="url(#redline)"/>
   </g>
 </svg>

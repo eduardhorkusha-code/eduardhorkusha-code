@@ -6,7 +6,7 @@
 <br/><br/>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=FD3433&center=true&vCenter=true&width=640&lines=Building+autonomous+agents+on+Claude+Code;AI-native+products%2C+shipped+end-to-end;Next.js+%C2%B7+Supabase+%C2%B7+BigQuery+%C2%B7+Python" alt="typing tagline"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=FD3433&center=true&vCenter=true&width=680&lines=Senior+Growth+Operations+Manager;I+ship+the+products+I+need+%E2%80%94+solo;Product+skills+%2B+Claude+Code+%3D+a+team+of+one" alt="typing tagline"/>
 </a>
 
 <br/>
@@ -30,22 +30,22 @@
 
 **🇬🇧 English**
 
-- 🧠 **AI-native Product Engineer** — I turn LLMs into reliable, shipped systems.
-- 🤖 Building **multi-agent automation** & AI-native apps on **Claude Code**.
-- 🏢 Engineering internal platforms & data products at **SKELAR**.
-- ⚙️ Daily stack: **TypeScript · Next.js · Python · Supabase · BigQuery**.
-- 💬 Ask me about **agent orchestration, RAG, LLM evals, Next.js + Supabase**.
+- 📈 **Senior Growth Operations Manager** — I run growth & operations day-to-day.
+- 🛠️ When I need a tool, I **build it myself** — solo, idea to release.
+- 🤖 **Product skills + Claude Code** let me ship real products without a team.
+- ⚙️ Working stack: **TypeScript · Next.js · Python · Supabase · BigQuery**.
+- 💬 Ask me about **growth ops, solo-building with AI, Next.js + Supabase**.
 
 </td>
 <td width="50%" valign="top">
 
 **🇺🇦 Українська**
 
-- 🧠 **AI-native продуктовий інженер** — перетворюю LLM на надійні робочі системи.
-- 🤖 Будую **мультиагентну автоматизацію** та AI-native застосунки на **Claude Code**.
-- 🏢 Розробляю внутрішні платформи й дата-продукти в **SKELAR**.
-- ⚙️ Щоденний стек: **TypeScript · Next.js · Python · Supabase · BigQuery**.
-- 💬 Питай про **оркестрацію агентів, RAG, оцінку LLM, Next.js + Supabase**.
+- 📈 **Senior Growth Operations Manager** — щодня веду growth та операційку.
+- 🛠️ Коли потрібен інструмент — **будую його сам**, від ідеї до релізу.
+- 🤖 **Продуктові скіли + Claude Code** дають змогу випускати продукти без команди.
+- ⚙️ Робочий стек: **TypeScript · Next.js · Python · Supabase · BigQuery**.
+- 💬 Питай про **growth ops, соло-розробку з AI, Next.js + Supabase**.
 
 </td>
 </tr>
