@@ -1,6 +1,6 @@
-<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#222631"/>
       <stop offset="1" stop-color="#060607"/>
     </linearGradient>
@@ -8,43 +8,65 @@
       <stop offset="0" stop-color="#FD3433"/>
       <stop offset="1" stop-color="#FD3433" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="lineClip"><rect x="0" y="262" width="560" height="4" rx="2"/></clipPath>
   </defs>
 
   <!-- backdrop -->
-  <rect width="1280" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="16" fill="url(#bg)"/>
 
-  <!-- decorative geometric grid (right side) -->
-  <g transform="translate(905 60)">
-    <rect x="0"   y="0"   width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.95"/>
-    <rect x="64"  y="0"   width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.35"/>
-    <rect x="128" y="0"   width="52" height="52" rx="8" fill="#FFFFFF" fill-opacity="0.06"/>
-    <rect x="192" y="0"   width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.18"/>
-    <rect x="0"   y="64"  width="52" height="52" rx="8" fill="#FFFFFF" fill-opacity="0.06"/>
-    <rect x="64"  y="64"  width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.55"/>
-    <rect x="128" y="64"  width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.25"/>
-    <rect x="192" y="64"  width="52" height="52" rx="8" fill="#FFFFFF" fill-opacity="0.06"/>
-    <rect x="0"   y="128" width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.20"/>
-    <rect x="64"  y="128" width="52" height="52" rx="8" fill="#FFFFFF" fill-opacity="0.06"/>
-    <rect x="128" y="128" width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.95"/>
-    <rect x="192" y="128" width="52" height="52" rx="8" fill="#FD3433" fill-opacity="0.40"/>
+  <!-- animated geometric grid (right) -->
+  <g transform="translate(905 78)">
+    <rect x="0"   y="0"   width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.95;0.3;0.95" dur="2.6s" begin="0s"   repeatCount="indefinite"/></rect>
+    <rect x="64"  y="0"   width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.35;0.9;0.35" dur="2.6s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="128" y="0"   width="52" height="52" rx="8" fill="#FFFFFF"><animate attributeName="fill-opacity" values="0.06;0.16;0.06" dur="2.6s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="192" y="0"   width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.18;0.6;0.18" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></rect>
+    <rect x="0"   y="64"  width="52" height="52" rx="8" fill="#FFFFFF"><animate attributeName="fill-opacity" values="0.06;0.16;0.06" dur="2.6s" begin="0.8s" repeatCount="indefinite"/></rect>
+    <rect x="64"  y="64"  width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.55;0.95;0.55" dur="2.6s" begin="1.0s" repeatCount="indefinite"/></rect>
+    <rect x="128" y="64"  width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.25;0.8;0.25" dur="2.6s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <rect x="192" y="64"  width="52" height="52" rx="8" fill="#FFFFFF"><animate attributeName="fill-opacity" values="0.06;0.16;0.06" dur="2.6s" begin="1.4s" repeatCount="indefinite"/></rect>
+    <rect x="0"   y="128" width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.20;0.7;0.20" dur="2.6s" begin="1.6s" repeatCount="indefinite"/></rect>
+    <rect x="64"  y="128" width="52" height="52" rx="8" fill="#FFFFFF"><animate attributeName="fill-opacity" values="0.06;0.16;0.06" dur="2.6s" begin="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="128" y="128" width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.95;0.35;0.95" dur="2.6s" begin="2.0s" repeatCount="indefinite"/></rect>
+    <rect x="192" y="128" width="52" height="52" rx="8" fill="#FD3433"><animate attributeName="fill-opacity" values="0.40;0.9;0.40" dur="2.6s" begin="2.2s" repeatCount="indefinite"/></rect>
   </g>
 
   <!-- left text block -->
   <g transform="translate(72 0)">
     <!-- tag -->
-    <rect x="0" y="66" width="290" height="30" rx="15" fill="#FD3433" fill-opacity="0.14"/>
-    <text x="18" y="86" font-size="14" font-weight="600" letter-spacing="3" fill="#FD3433">GROWTH OPS · SOLO BUILDER</text>
+    <rect x="0" y="70" width="338" height="30" rx="15" fill="#FD3433" fill-opacity="0.14"/>
+    <text x="18" y="90" font-size="14" font-weight="600" letter-spacing="2.5" fill="#FD3433">GROWTH OPS · SOLO BUILDER</text>
+    <circle cx="318" cy="85" r="4" fill="#FD3433"><animate attributeName="fill-opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
 
     <!-- name -->
-    <text x="-2" y="152" font-size="56" font-weight="700" letter-spacing="-1.5" fill="#FFFFFF">Eduard Horkusha</text>
+    <text x="-2" y="160" font-size="56" font-weight="700" letter-spacing="-1.5" fill="#FFFFFF">Eduard Horkusha</text>
 
     <!-- role -->
-    <text x="0" y="192" font-size="23" font-weight="500" fill="#FFFFFF" fill-opacity="0.78">Senior Growth Operations Manager</text>
+    <text x="0" y="200" font-size="23" font-weight="500" fill="#FFFFFF" fill-opacity="0.78">Senior Growth Operations Manager</text>
 
-    <!-- secondary role -->
-    <text x="0" y="222" font-size="17" font-weight="500" fill="#FD3433" fill-opacity="0.92">Shipping products solo with Claude Code</text>
+    <!-- cycling tagline (3 lines rotate via opacity) -->
+    <g font-size="18" font-weight="500" fill="#FD3433">
+      <text x="0" y="242" opacity="0">Shipping products solo with Claude Code
+        <animate attributeName="opacity" dur="10.5s" repeatCount="indefinite" keyTimes="0;0.03;0.30;0.33;0.97;1" values="0;1;1;0;0;0"/>
+      </text>
+      <text x="0" y="242" opacity="0">Product skills × AI = a team of one
+        <animate attributeName="opacity" dur="10.5s" repeatCount="indefinite" keyTimes="0;0.33;0.36;0.63;0.66;1" values="0;0;1;1;0;0"/>
+      </text>
+      <text x="0" y="242" opacity="0">Growth &amp; ops, turned into shipped software
+        <animate attributeName="opacity" dur="10.5s" repeatCount="indefinite" keyTimes="0;0.66;0.69;0.96;0.99;1" values="0;0;1;1;0;0"/>
+      </text>
+    </g>
 
-    <!-- accent underline -->
-    <rect x="0" y="242" width="560" height="3" rx="1.5" fill="url(#redline)"/>
+    <!-- accent underline + shimmer -->
+    <rect x="0" y="262" width="560" height="3" rx="1.5" fill="url(#redline)"/>
+    <g clip-path="url(#lineClip)">
+      <rect x="-120" y="262" width="120" height="4" fill="url(#shimmer)">
+        <animate attributeName="x" from="-120" to="560" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
   </g>
 </svg>

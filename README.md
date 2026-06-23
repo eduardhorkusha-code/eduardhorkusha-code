@@ -1,23 +1,14 @@
 <!-- ════════════════════════  HEADER  ════════════════════════ -->
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Eduard Horkusha — AI-native Product Engineer"/>
-
-<br/><br/>
-
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=FD3433&center=true&vCenter=true&width=680&lines=Senior+Growth+Operations+Manager;I+ship+the+products+I+need+%E2%80%94+solo;Product+skills+%2B+Claude+Code+%3D+a+team+of+one" alt="typing tagline"/>
-</a>
+<img src="./assets/banner.svg" width="100%" alt="Eduard Horkusha — Senior Growth Operations Manager · Solo builder"/>
 
 <br/>
 
 <a href="https://stand-with-ukraine.pp.ua">
   <img src="https://img.shields.io/badge/Stand_With-Ukraine-FFD500?labelColor=005BBB&style=for-the-badge" alt="Stand with Ukraine"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=eduardhorkusha-code&style=for-the-badge&color=FD3433&label=Profile+Views" alt="profile views"/>
-<a href="https://wakatime.com/@eduardhorkusha-code">
-  <img src="https://img.shields.io/badge/Powered_by-WakaTime-FD3433?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime"/>
-</a>
+<img src="https://img.shields.io/badge/Built_with-Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Built with Claude Code"/>
 
 </div>
 
@@ -64,10 +55,6 @@
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
 <img src="https://img.shields.io/badge/Groq-FD3433?style=for-the-badge&logo=groq&logoColor=white" alt="Groq"/>
 <img src="https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery"/>
-
-<br/><br/>
-
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardhorkusha-code&layout=compact&langs_count=6&hide_border=true&card_width=480&bg_color=222631&title_color=FD3433&text_color=ffffff" alt="most used languages"/>
 
 </div>
 
