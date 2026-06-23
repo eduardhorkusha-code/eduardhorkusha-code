@@ -14,10 +14,19 @@
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="lineClip"><rect x="0" y="262" width="560" height="4" rx="2"/></clipPath>
+    <clipPath id="bannerClip"><rect width="1280" height="340" rx="16"/></clipPath>
   </defs>
 
   <!-- backdrop -->
   <rect width="1280" height="340" rx="16" fill="url(#bg)"/>
+
+  <!-- mountain ridge echo (bottom edge, faint) -->
+  <g clip-path="url(#bannerClip)">
+    <path fill="#FD3433" fill-opacity="0.10" d="M0,318 L210,292 L430,314 L650,288 L910,312 L1190,290 L1280,308 L1280,340 L0,340 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0;14 0;0 0" dur="18s" repeatCount="indefinite"/>
+    </path>
+    <path fill="#FD3433" fill-opacity="0.16" d="M0,330 L150,312 L320,328 L500,306 L680,326 L860,308 L1040,328 L1210,310 L1280,324 L1280,340 L0,340 Z"/>
+  </g>
 
   <!-- animated geometric grid (right) -->
   <g transform="translate(905 78)">
