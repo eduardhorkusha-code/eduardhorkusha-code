@@ -1,29 +1,47 @@
-<svg width="1280" height="160" viewBox="0 0 1280 160" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<svg width="1280" height="180" viewBox="0 0 1280 180" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
   <defs>
-    <linearGradient id="w1" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FD3433" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#FD3433" stop-opacity="0.45"/>
+    <linearGradient id="mFront" x1="0" y1="60" x2="0" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FD3433" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FD3433" stop-opacity="0.55"/>
     </linearGradient>
-    <linearGradient id="w2" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FD3433" stop-opacity="0.30"/>
+    <linearGradient id="mMid" x1="0" y1="50" x2="0" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FD3433" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FD3433" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="mBack" x1="0" y1="40" x2="0" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FD3433" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#FD3433" stop-opacity="0.12"/>
     </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FD3433" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FD3433" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- back wave (slow, faint) -->
-  <g fill="url(#w2)">
-    <path d="M0,86 q80,-34 160,0 q80,34 160,0 q80,-34 160,0 q80,34 160,0 q80,-34 160,0 q80,34 160,0 q80,-34 160,0 q80,34 160,0 q80,-34 160,0 q80,34 160,0 q80,-34 160,0 q80,34 160,0 q80,-34 160,0 q80,34 160,0 q80,-34 160,0 q80,34 160,0 V160 H0 Z">
-      <animateTransform attributeName="transform" type="translate" values="-1280 0;0 0" dur="14s" repeatCount="indefinite"/>
-    </path>
+  <!-- glow behind the main summit -->
+  <ellipse cx="640" cy="78" rx="240" ry="70" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="5.5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- twinkling stars -->
+  <g fill="#FFFFFF">
+    <circle cx="180" cy="40" r="1.8"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="0s"   repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="28" r="1.4"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="34" r="1.6"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="46" r="1.3"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" begin="0.3s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- front wave (faster, bold) -->
-  <g fill="url(#w1)">
-    <path d="M0,104 q80,-40 160,0 q80,40 160,0 q80,-40 160,0 q80,40 160,0 q80,-40 160,0 q80,40 160,0 q80,-40 160,0 q80,40 160,0 q80,-40 160,0 q80,40 160,0 q80,-40 160,0 q80,40 160,0 q80,-40 160,0 q80,40 160,0 q80,-40 160,0 q80,40 160,0 V160 H0 Z">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-1280 0" dur="9s" repeatCount="indefinite"/>
-    </path>
-  </g>
+  <!-- back range (faint, tallest) — gentle drift -->
+  <path fill="url(#mBack)" d="M0,118 L200,66 L420,108 L640,58 L900,104 L1180,64 L1280,98 L1280,180 L0,180 Z">
+    <animateTransform attributeName="transform" type="translate" values="0 0;14 0;0 0" dur="16s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- mid range -->
+  <path fill="url(#mMid)" d="M0,134 L150,94 L300,124 L460,80 L640,120 L820,86 L1000,120 L1180,90 L1280,114 L1280,180 L0,180 Z"/>
+
+  <!-- front range (bold) -->
+  <path fill="url(#mFront)" d="M0,150 L120,120 L220,140 L340,100 L470,134 L600,96 L740,140 L860,110 L1000,134 L1130,106 L1280,140 L1280,180 L0,180 Z"/>
 
   <!-- caption -->
-  <text x="640" y="56" text-anchor="middle" font-size="14" font-weight="600" letter-spacing="3" fill="#FFFFFF" fill-opacity="0.7">BUILT WITH CLAUDE CODE</text>
+  <text x="640" y="34" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="3" fill="#FFFFFF" fill-opacity="0.72">BUILT WITH CLAUDE CODE</text>
 </svg>
