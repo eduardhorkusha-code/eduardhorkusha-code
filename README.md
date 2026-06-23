@@ -72,70 +72,27 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=eduardhorkusha-code&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=percentile&bg_color=222631&title_color=FD3433&icon_color=FD3433&text_color=ffffff" alt="github stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardhorkusha-code&layout=compact&langs_count=8&hide_border=true&bg_color=222631&title_color=FD3433&text_color=ffffff" alt="top languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=eduardhorkusha-code&hide_border=true&background=222631&ring=FD3433&fire=FD3433&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=FD3433&sideLabels=ffffff&dates=888888&stroke=FD3433" alt="streak stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=eduardhorkusha-code&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=percentile&hide=issues,prs&bg_color=222631&title_color=FD3433&icon_color=FD3433&text_color=ffffff" alt="github stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardhorkusha-code&layout=compact&langs_count=6&hide_border=true&bg_color=222631&title_color=FD3433&text_color=ffffff" alt="top languages"/>
 
 </div>
 
 <!-- ════════════════════════  PROJECTS  ════════════════════════ -->
-## 🚀 Featured Projects
+## 🚀 Projects
 
-**Open source**
+Products I built solo — growth & ops needs turned into shipped software.
 
-<div align="center">
+| | Project | What it does | Stack |
+|:--:|---|---|---|
+| 🌐 | **[ai-product-sprint](https://github.com/eduardhorkusha-code/ai-product-sprint)** | Knowledge base + AI agents + a modular builder to assemble a mobile product in a 4-hour sprint. | Expo · Supabase |
+| 🌐 | **[ai-planner](https://github.com/eduardhorkusha-code/ai-planner)** | LLM-assisted planning experiments. | TypeScript |
+| 🔒 | **ai-team** | Multi-agent autonomous engineering team (PM · Dev · QA · Security) on Claude Code. | Python · Claude |
+| 🔒 | **Midas** | Brand-reputation intelligence platform — multi-source signals into scores & dashboards. | Next.js · BigQuery · Redis |
+| 🔒 | **skelar-events** | Internal events, RSVP & calendar platform. | Next.js · TypeScript |
+| 🔒 | **skelar-vault** | Internal hub — events, role-based access control & talent-acquisition tooling. | Next.js · Supabase |
+| 🔒 | **printforge-crm** | AI-native CRM for makers — orders, clients, production queue, margin. | Next.js · Supabase |
 
-<a href="https://github.com/eduardhorkusha-code/ai-product-sprint">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=eduardhorkusha-code&repo=ai-product-sprint&hide_border=true&bg_color=222631&title_color=FD3433&icon_color=FD3433&text_color=ffffff" alt="ai-product-sprint"/>
-</a>
-<a href="https://github.com/eduardhorkusha-code/skelar-events">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=eduardhorkusha-code&repo=skelar-events&hide_border=true&bg_color=222631&title_color=FD3433&icon_color=FD3433&text_color=ffffff" alt="skelar-events"/>
-</a>
-<a href="https://github.com/eduardhorkusha-code/ai-planner">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=eduardhorkusha-code&repo=ai-planner&hide_border=true&bg_color=222631&title_color=FD3433&icon_color=FD3433&text_color=ffffff" alt="ai-planner"/>
-</a>
-
-</div>
-
-> **ai-product-sprint** — knowledge base + AI agents + a modular builder to assemble a mobile product fast (Expo + Supabase) &nbsp;·&nbsp; **skelar-events** — internal events, RSVP & calendar tooling &nbsp;·&nbsp; **ai-planner** — LLM-assisted planning experiments.
-
-**Selected private work** 🔒
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🤖 ai-team**
-A multi-agent autonomous engineering team (PM · Dev · QA · Security · Infra) orchestrated on Claude Code.
-
-</td>
-<td width="50%" valign="top">
-
-**📈 Midas**
-Brand-reputation intelligence platform — aggregates multi-source signals into scores & dashboards.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🗄️ skelar-vault**
-Internal company hub — events, role-based access control, and talent-acquisition tooling.
-
-</td>
-<td width="50%" valign="top">
-
-**🖨️ printforge-crm**
-AI-native CRM for makers — orders, clients, production queue, and margin tracking.
-
-</td>
-</tr>
-</table>
-
-<sub>🔒 Private repositories — descriptions cover the problem space only, no internal details.</sub>
+<sub>🌐 open source &nbsp;·&nbsp; 🔒 private (problem space only — no internal details)</sub>
 
 <!-- ════════════════════════  CONNECT  ════════════════════════ -->
 ## 🤝 Connect
